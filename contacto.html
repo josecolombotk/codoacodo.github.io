@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <section id="formulario">
+            <h2>Formulario de Consultas</h2>
+            <form action="procesar_formulario.php" method="post">
+                <!-- Aquí debes agregar los campos que necesitas en el formulario -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="redes_sociales">
+            <h2>Síguenos en redes sociales</h2>
+            <!-- Aquí debes agregar los enlaces a tus redes sociales -->
+            <ul>
+                <li><a href="https://www.facebook.com/tu_pagina">Facebook</a></li>
+                <li><a href="https://twitter.com/tu_pagina">Twitter</a></li>
+                <li><a href="https://www.instagram.com/tu_pagina">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
