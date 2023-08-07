@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -25,13 +26,13 @@
                 <!-- aca agregar los campos que necesitas en el formulario -->
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
-
+                <br><br>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 <br><br>
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
+                <br><br>
                 <button type="submit">Enviar</button>
             </form>
         </section>
@@ -39,10 +40,11 @@
         <section id="redes_sociales">
             <h2>Síguenos en redes sociales</h2>
             <!-- agregar los enlaces a tus redes sociales -->
-            <ul>
-                <li><a href="https://www.facebook.com/tu_pagina">Facebook</a></li>
-                <li><a href="https://twitter.com/tu_pagina">Twitter</a></li>
-                <li><a href="https://www.instagram.com/tu_pagina">Instagram</a></li>
+            <ul class="redes-sociales">
+                <li><a href="https://www.facebook.com/tu_pagina"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/tu_pagina"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/tu_pagina"><i class="fab fa-instagram"></i></a></li>
+        
             </ul>
         </section>
     </main>
