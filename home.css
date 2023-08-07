@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(tiki.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -61,4 +64,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+img {
+    width: 200px;
+   
 }
